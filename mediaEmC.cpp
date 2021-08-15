@@ -21,8 +21,17 @@ int main (){
 	
 	somar = (nota1+nota2+nota3+nota4) /4;
 	
-	printf("\nO resultado da media  é :%f",somar);
+	//printf("\nO resultado da media  é :%.2f",somar);
 	
+if(somar  == 10 ){
+		printf("Classe aprovada nota maxima ");
+	}
+	else if(somar >=7 ){
+		printf("Classe passou na media  ");
+	}else if(somar <=5 ){
+		printf("Classe reprovada nota menos que media %.2f",somar);
+	
+	}
 
 		
 	
